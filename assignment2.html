@@ -53,10 +53,352 @@
 				<div class="page__inner-wrap">
 					<header>
 						<h1 class="page__title" itemprop="headline">Telling Stories With Data - Assignment 2</h1>
+						<br>
+						<h1 class="page__title" itemprop="headline" style="color: SteelBlue;">Visualizing Government Debt</h1>
 					</header>
 					<section class="page__content" itemprop="text">
 						<br>
-						This page will contain my Assignment 2 for the graduate-level course, 'Telling Stories With Data', offered by Carnegie Mellon University. 
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue;">Part 1: Working with web-based visualization tools and data</h2>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">General Government Debt for 2021</p>
+						<p style="font-size: 14px; margin-bottom: 3px;">General government debt-to-GDP ratio measures the gross debt of the general government as a percentage of GDP.</p> <br>
+						<iframe src="https://data.oecd.org/chart/6S2m" width="860" 
+								height="645" style="border: 0" mozallowfullscreen="true" 
+								webkitallowfullscreen="true" allowfullscreen="true">
+								<a href="https://data.oecd.org/chart/6S2m" target="_blank">
+									OECD Chart: General government debt, Total, % of GDP, Annual, 2021
+								</a>
+						</iframe>
+						<br><br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Dataset Explanation 📝</p>
+						<ul>
+							<li>
+								The data for the general government debt for the various countries is open source and 
+								is collected from the Organization for Economic Co-operation and Development (OECD). 
+							</li>
+							<li>
+								The general government debt-to-GDP ratio measures the gross debt of the general government 
+								in a country as a percentage of its GDP. This is a crucial indicator of the financial sustainability 
+								of the government.
+							</li>
+							<li>
+								The data is reported yearly for each country and ranges from 1995 to 2021. For some years, 
+								the government debt to GDP ratio was not reported for a few countries. 
+							</li>
+							<li>
+								A few columns from the downloaded data were irrelevant, as they all were filled with the 
+								same values, top to bottom. Hence, these rows were not considered in the upcoming visualizations 
+								below. 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Insights (very general) from the Visualization 📊</p>
+						<ul>
+							<li>
+								The above (guided) visualization shows a simple <i>Bar Chart</i> visualization 
+								depicting the government debt across various countries for the year 2021. It was 
+								built using OECD.
+							</li>
+							<li>
+								We learn that Japan's debt is way higher than that of other countries for 2021, followed 
+								by Greece and Italy. On the lower end, Estonia and Luxembourg have the most negligible debts. 
+							</li>
+							<li>
+								The remaining countries are sorted based on increasing government debts from Estonia to
+								Japan. OECD helped build an interactive bar chart wherein hovering over particular bars 
+								would highlight government debt (as a % of GDP) for that particular country.
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Citations</p>
+						<ul>
+							<li>
+								Data Source:  	<a href="https://data.oecd.org/gga/general-government-debt.htm" target="_blank">
+													Organisation for Economic Co-operation and Development (OECD)
+												</a>
+							</li>
+						</ul>
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue;">Part 2: Working with Flourish</h2>
+						<p style="font-size: 20px; font-weight: bold; margin-bottom: 15px;">Visualization 1: <span style="color:orange;">Grid of Line Charts</span> (Guided)</p>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Government Debt across the Globe (1995 to 2021)</p>
+						<p style="font-size: 14px; margin-bottom: 3px;">Japan (JPN) is going through tough times - Shows the highest increase in Government Debt</p> <br>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/11696127"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Insights from the Visualization 📊</p>
+						<ul>
+							<li>
+								The above (guided) visualization shows a <i>Grid of Line Charts</i> visualization 
+								depicting the government debt across various countries for the period 1995 to 2021. 
+								It was built as an initial step for using and getting to know Flourish. 
+							</li>
+							<li>
+								The grid has multiple small line charts (one for each country). The lines depict the 
+								change in Debt to GDP ratio from 1995 to 2021 for every country. 
+							</li>
+							<li>
+								Being small line charts with a lot of information, it is hard to interpret the exact message; 
+								however, on a general overview, I can see that Japan (JPN) is going through tough times. It 
+								shows the highest increase in Government Debt from 1995 to 2021 and has the highest 
+								government debts in the world for 2021. 
+							</li>
+							<li>
+								Information from the line charts of other countries is quite less interpretable from the complexity
+								of the graph. However, being an interactive visualization, one can hover over the lines to know 
+								the Government Debt to GDP ratio for a country for the desired year. 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Citations</p>
+						<ul>
+							<li>
+								Data Source:  	<a href="https://data.oecd.org/gga/general-government-debt.htm" target="_blank">
+													Organisation for Economic Co-operation and Development (OECD)
+												</a>
+							</li>
+						</ul>
+						<br>
+						<p style="font-size: 20px; font-weight: bold; margin-bottom: 15px;">Visualization 2: <span style="color:orange;">Line Chart Race Visualization</span> (Self Designed)</p>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Government Debt of Top Higher Studies Destinations for Indian Students (1995 to 2021)</p>
+						<p style="font-size: 14px; margin-bottom: 3px;">USA faces the highest rise in Debt-to-GDP ratio among the top three study destinations</p> <br>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/11697202"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+					
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Choice of Visualization 📈</p>
+						<ul>
+							<li>
+								The grid of lines chart in Visualization 1 had a lot of things to convey in
+								the small space. With a considerable number of countries and a small line chart 
+								for each one of them, it wasn't easy to compare the data for each country and 
+								extract the relevant information. 
+							</li>
+							<li>
+								A line chart is helpful with such data, which has numerical values varying with 
+								time. However, the miniature versions of many line charts in Visualization 1 were
+								not helpful. Hence, my first thought was to subset the data and focus on
+								particular countries to convey the relevant information. 
+							</li>
+							<li>
+								Being an international student in the USA, I decided to visualize government
+								debts of the top higher study destinations (countries) for Indian students. 
+								Based on the ground reality of Indian students, I shortlisted to visualize
+								the following countries: United States of America (USA), Canada, Australia, 
+								United Kingdom (UK), France, and Germany. It would help aspiring Indian students
+								compare the government debts of the countries they are looking forward to for
+								pursuing their higher education.
+							</li>
+							<li>
+								I had six countries and wanted to show how their government debts varied from 
+								1995 to 2021. A simple static line chart with six lines (one for each country)
+								would have been sufficient; however, upon exploration, I came across the 
+								Line Chart Race visualization, and it seemed perfect! 
+							</li>
+							<li>
+								Contrary to showing the six static lines, the Line Chart Race visualization
+								will form them dynamically, and it would be pleasing to the eyes of the 
+								audience. Additionally, it has the 'Ranks' tab to show how the six countries' 
+								rankings change over the years. Moreover, the 'Replay' button adds a cherry on 
+								the top :)
+							</li>
+							<li>
+								The interactive highlight option in the Line Chart Race visualization is also
+								appealing. It helps highlight a line for a particular country to understand its
+								trend better. 
+							</li>
+						</ul>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Choice of Color 🎨</p>
+						<ul>
+							<li>
+								Initially, I used the six default colors for the lines (one for each line).
+								However, with the default color choice, the graph looked complex, and I could
+								not get the message out. Thus, I decided to highlight the top three study 
+								destinations for Indian students - USA, Canada, and Australia, and 
+								hide the remaining three countries in the background (using the all-time 
+								favorite for such use cases - the gray!). 
+							</li>
+							<li>
+								For USA, Canada, and Australia, I colored their lines with one of their 
+								national colors. Each of them had multiple national colors. Hence, I chose
+								ones that would be distinct from the others and would be visually appealing 
+								(USA - Blue; Canada - Red; Australia - Gold). 
+							</li>
+							<li>
+								The country names and government debts for the respective years were colored 
+								the same color as the six lines to display consistency. 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Crafting for Clarity 💬</p>
+						<ul>
+							<li>
+								I expanded the abbreviated names of the six countries. However, the USA's long name did 
+								not fit well. Moreover, its abbreviated name was self-explanatory. Hence, I decided to 
+								keep the abbreviations (for countries) that are more famous and could be easily understood 
+								and expand the names for the rest.
+							</li>
+							<li>
+								The X-axis and Y-axis were intentionally not labeled as they were self-explanatory from the 
+								graph's title and would help avoid redundancy. 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Insights from the Visualization 📊</p>
+						<ul>
+							<li>
+								Among the top three higher study destinations (USA, Canada, Australia) for Indian 
+								students, the USA faces the highest rise in government debts across the past years 
+								from 1995 to 2021. 
+							</li>
+							<li>
+								Canada, Australia, and Germany have tried to maintain government debts over the past 
+								years. 
+							</li>
+							<li>
+								The COVID-19 phase hit every country hard since there was a considerable spike in 
+								government debts for each country from 2019 to 2020. However, with recovery from 
+								COVID-19 since the start of vaccinations, each of these study destinations has seen 
+								a reduction in their government debts. 
+							</li>
+							<li>
+								Upon minute observation, I find that from 1995 to 2021, the UK has seen the highest 
+								increase in government debts (among all six study destinations).
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Citations</p>
+						<ul>
+							<li>
+								Data Source:  	<a href="https://data.oecd.org/gga/general-government-debt.htm" target="_blank">
+													Organisation for Economic Co-operation and Development (OECD)
+												</a>
+							</li>
+							<li>
+								Line Chart Race Visualization Reference: 	<a href="https://www.wahlrecht.de/ergebnisse/bundestag.htm" target="_blank">
+																				Wahlrecht.de
+																			</a>
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline">Part 3: Working with Tableau</h2>
+						<div class='tableauPlaceholder' id='viz1667833145982' style='position: relative'>
+							<noscript>
+								<a href='#'>
+									<img alt='Govt Debt ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GovtDebt&#47;GovtDebt&#47;1_rss.png' style='border: none' />
+								</a>
+							</noscript>
+							<object class='tableauViz'  style='display:none;'>
+								<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+								<param name='embed_code_version' value='3' /> 
+								<param name='site_root' value='' />
+								<param name='name' value='GovtDebt&#47;GovtDebt' />
+								<param name='tabs' value='no' />
+								<param name='toolbar' value='yes' />
+								<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GovtDebt&#47;GovtDebt&#47;1.png' /> 
+								<param name='animate_transition' value='yes' />
+								<param name='display_static_image' value='yes' />
+								<param name='display_spinner' value='yes' />
+								<param name='display_overlay' value='yes' />
+								<param name='display_count' value='yes' />
+								<param name='language' value='en-US' />
+								<param name='filter' value='publish=yes' />
+							</object>
+						</div>                
+						<script type='text/javascript'>                    
+							var divElement = document.getElementById('viz1667833145982');                    
+							var vizElement = divElement.getElementsByTagName('object')[0];                    
+							vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';  
+							var scriptElement = document.createElement('script');   
+							scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';    
+							vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+						</script>
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Insights from the Visualization 📊</p>
+						<ul>
+							<li>
+								The above (guided) visualization shows the <i>Highlight Tables</i> visualization 
+								depicting the government debt across various countries for the period 1995 to 2021. 
+								It was built as an initial step for using and getting to know Tableau. 
+							</li>
+							<li>
+								Since the locations were sorted based on descending average values of the debt-to-
+								GDP ratio for 1995 to 2021, it was easier to identify that Japan, Greece,
+								and Italy had more debt-to-GDP ratio than the other countries.  
+							</li>
+							<li>
+								Moreover, color coding help understands the general trend of debt-to-GDP ratio across 
+								the various countries from 1995 to 2021. 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Citations</p>
+						<ul>
+							<li>
+								Data Source:  	<a href="https://data.oecd.org/gga/general-government-debt.htm" target="_blank">
+													Organisation for Economic Co-operation and Development (OECD)
+												</a>
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline">Part 4: Comparing the above Visualizations</h2>
+						<ul>
+							<li>
+								<b>Bar Chart</b>: With the bar chart, I could depict the debt-to-GDP ratio 
+								data for only 2021 for the respective countries. It was good, but I could not 
+								compare the trend for the debt-to-GDP ratio for the countries from 1995 to 2021. 
+								This was a major drawback.
+							</li>
+							<li>
+								<b>Grid of Line Charts</b>: The grid of line charts, on the contrary, helps to compare
+								the trend of the debt-to-GDP ratio for the countries from 1995 to 2021. But with 
+								so many countries and different line charts for each one of them, it brought in 
+								complexity and made it hard to grasp the message at first sight. 
+							</li>
+							<li>
+								<b>Highlight Tables</b>: The Highlight Tables visualization was more detailed than 
+								the Bar Chart and the Grid of Line Charts. It used color coding and sorting to give 
+								out the message. Moreover, it had numbers on each cell to show the corresponding debt-
+								to-GDP ratio. I feel it was better than the Bar Chart and the Grid of Line Charts as it 
+								conveys much more quickly. Such visualization can be helpful in cases where details for 
+								each data point are essential, along with conveying the general message. 
+							</li>
+							<li>
+								<b>Line Chart Race</b>: The visualization of the Line Chart Race was quite adequate for 
+								the message it had to convey. It was simple, attractive, and pleasing to the eyes. The 
+								"race effect" in the lines and the "Ranks" tab helped easily understand the trend in the 
+								debt-to-GDP ratio across the years. The color choice was practical as well to further 
+								highlight the main message.  
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline">Portfolio Navigation 🏃🏻</h2>
+						
+						<ul>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio">Home Page</a>: Going back to the start...
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/assignment1.html">Assignment 1</a>: Setting up an online portfolio for the course (this website!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/assignment2.html">Assignment 2</a>: Visualizing Government Debt
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/assignments3and4.html">Assignments 3 and 4</a>: Coming Up ... (Stay Tuned!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/project_part1.html">Final Project - Part 1</a>: Coming Up ... (Stay Tuned!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/project_part2.html">Final Project - Part 2</a>: Coming Up ... (Stay Tuned!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/project_part3.html">Final Project - Part 3</a>: Coming Up ... (Stay Tuned!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/workshops.html">Data Visualization Workshops</a>: Some extra visualizations for practice and exploration!
+							</li>
+						</ul>
 					</section>
 					<footer class="page__meta"></footer>
 				</div>

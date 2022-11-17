@@ -26,9 +26,119 @@
 		  gtag('js', new Date());
 		  gtag('config', 'G-507G4GJEX8');
 		</script>
+		
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
 		<style>
 		img {
 		  border-radius: 50%;
+		}
+		
+		.chat-list {
+			padding: 0;
+			font-size: .8rem;
+		}
+
+		.chat-list li {
+			margin-bottom: 10px;
+			overflow: auto;
+			color: #ffffff;
+		}
+
+		.chat-list .chat-img {
+			float: left;
+			width: 38px;
+		}
+
+		.chat-list .chat-img img {
+			-webkit-border-radius: 40px;
+			-moz-border-radius: 40px;
+			border-radius: 40px;
+			width: 100%;
+		}
+
+		.chat-list .chat-message {
+			-webkit-border-radius: 40px;
+			-moz-border-radius: 40px;
+			border-radius: 40px;
+			background: #5a99ee;
+			display: inline-block;
+			padding: 10px 20px;
+			position: relative;
+		}
+
+		.chat-list .chat-message:before {
+			content: "";
+			position: absolute;
+			top: 15px;
+			width: 0;
+			height: 0;
+		}
+
+		.chat-list .chat-message h5 {
+			margin: 0 0 5px 0;
+			font-weight: 600;
+			line-height: 100%;
+			font-size: .9rem;
+		}
+
+		.chat-list .chat-message p {
+			line-height: 18px;
+			margin: 0;
+			padding: 0;
+		}
+
+		.chat-list .chat-body {
+			margin-left: 20px;
+			float: left;
+			width: 70%;
+		}
+
+		.chat-list .in .chat-message:before {
+			left: -12px;
+			border-bottom: 20px solid transparent;
+			border-right: 20px solid #5a99ee;
+		}
+
+		.chat-list .out .chat-img {
+			float: right;
+		}
+
+		.chat-list .out .chat-body {
+			float: right;
+			margin-right: 20px;
+			text-align: right;
+		}
+
+		.chat-list .out .chat-message {
+			background: #fc6d4c;
+		}
+
+		.chat-list .out .chat-message:before {
+			right: -12px;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid #fc6d4c;
+		}
+
+		.card .card-header:first-child {
+			-webkit-border-radius: 0.3rem 0.3rem 0 0;
+			-moz-border-radius: 0.3rem 0.3rem 0 0;
+			border-radius: 0.3rem 0.3rem 0 0;
+		}
+		.card .card-header {
+			background: #17202b;
+			border: 0;
+			font-size: 1rem;
+			padding: .65rem 1rem;
+			position: relative;
+			font-weight: 600;
+			color: #ffffff;
+		}
+
+		.content{
+			margin-top:40px;    
 		}
 		</style>
 	</head>
@@ -45,22 +155,1938 @@
 					<div class="author__urls-wrapper" id="button"></div>
 				</div>
 			</div>
-		<div>
 			<article class="page">
 				<meta itemprop="headline" content="About me">
 				<meta itemprop="description" content="About me">
 				<div class="page__inner-wrap">
 					<header>
-						<h1 class="page__title" itemprop="headline">Telling Stories With Data - Assignment 3 and 4</h1>
+						<h1 class="page__title" itemprop="headline" style="font-size: 32px; font-weight: bold;">Telling Stories With Data - Assignment 3 and 4</h1>
+						<br>
+						<h1 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 32px; font-weight: bold;">Critique by Design</h1>
 					</header>
 					<section class="page__content" itemprop="text">
 						<br>
-						This page will contain my Assignments 3 and 4 for the graduate-level course, 'Telling Stories With Data', offered by Carnegie Mellon University. 		
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 26px; font-weight: bold;">Step 1: Find a data visualization (with data you can use!)</h2>
+						I am a big fan of cricket, especially when it comes to the ICC 
+						(International Cricket Council) T20 World Cups and the IPLs (Indian 
+						Premier League). The 2022 ICC Men's T20 World Cup recently concluded
+						in Australia on 13th November 2022. Unfortunately, my team (Team 
+						India) did not win, but it gave a good fight and made it to the 
+						semi-finals! I enjoyed watching the matches in this World Cup.
+						<br><br>
+						With cricket still in the air these days, and this assignment coming
+						up, the best place I thought to search for (bad) visualizations was
+						<a href="https://www.espncricinfo.com/" target="_blank">ESPNcricinfo</a>. It is a 
+						sports news website exclusively for the game of cricket. It features 
+						cricket articles, cricket news, lives cricket matches and a 
+						historical database of cricket matches played from the 18th century 
+						to the current times. An additional reason this website was my
+						first resource was because I had seen poor visualizations earlier
+						on ESPNcricinfo. 
+						<br><br> 
+						During my exploration, I came across a page titled <i><a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">
+						Which top cricket city would win the World Cup?</a></i> First of 
+						all, the title of the page itself was confusing since the world cup 
+						matches are played between countries and not between cities. Based 
+						on the design and critiquing knowledge I have gained so far in the 
+						course,	upon glancing thourgh the page, I found some poor and 
+						misleading visualizations and decided to work upon one of them for 
+						this assignment. 
+						<br><br>	
+						I planned to work on the visualization titled <i>'Cities with best
+						Batting averages'</i> since it has a big area of improvement. But 
+						as a <b><span style="color: #50C878">bonus</span></b> 🌟, I planned to 
+						parallely work on the visualization titled <i>'Cities with best 
+						Bowling averages'</i> since the two were quite related and had 
+						similar areas of improvement. Both these visualizations are shown 
+						below. 
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=75% width=75% src='img/original_batting.jpeg' alt='Original Batting'/></center>
+						<h5 style="font-size: 16px; margin-left: 110px; margin-top: 10px;">Source: <a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">ESPNcricinfo</a> </h5>
+
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=75% width=75% src='img/original_bowling.jpeg' alt='Original Bowling'/></center>
+						<h5 style="font-size: 16px; margin-left: 110px; margin-top: 10px;">Source: <a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">ESPNcricinfo</a> </h5>
+						
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Dataset Explanation 📝</p>
+						<ul>
+							<li>
+								The data for these visualizations is open source and 
+								describes the batting and bowling performances of the top
+								cities in the 2019 ICC Cricket World Cup.
+							</li>
+							<li>
+								Though the circket World Cups are played among countries, 
+								these visualisations focus on a different aspect. 
+								They compare the performance of the cities in these 
+								countries which is in turn measured by the performance of
+								the players that the city produced. 
+							</li>
+							<li>
+								The intended audience for these visualizations (and the 
+								data) are people interested in cricket. This is because
+								they heaviely contain technical jargon related to 
+								cricket which is not easily understandable by people who
+								do not have a background in cricket. 
+							</li>
+							<li>
+								The data points in the visualizations are batting average,
+								bowling average, runs and wickets. These are cricket heavy
+								and can be better understood from the detailed explanation
+								given in <a href="https://www.rookieroad.com/cricket/how-does-scoring-work/#:~:text=In%20cricket%2C%20scoring%20depends%20on,as%20many%20runs%20as%20possible." target="_blank">
+								this link</a>. However, in simple terms, if you are batting, 
+								you try to score as many runs as possible and save your 
+								wickets. But if you are bowling, you try to take the wickets
+								of the opponent team and make them score as less runs as 
+								possible. If you loose your wicket, you are 'out'. 
+							</li>
+							<li>
+								Batting average is the ratio of the total number of runs 
+								scored by a player to the number of times the player has 
+								been out. Bowling average is the ratio of the numbers of 
+								runs conceded by a player to the number of wickets taken 
+								by the player. These averages are calculated on a player
+								basis and are then averaged (for the players from a given
+								city) to find the averages of the respective cities. 
+							<li>
+								The source of these visualizations do not have a built in 
+								data set (in tabular form). However, the data set was easily
+								reconstructable based on the values given in the 
+								visualizations. Thus, I (easily) recreated the data set
+								for building my sketches and the final visualizations in 
+								Flourish.
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">Citations</p>
+						<ul>
+							<li>
+								Data Source:  <a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">ESPNcricinfo</a>
+							</li>
+						</ul>
+
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 26px; font-weight: bold;">Step 2: Critique the data visualization</h2>
+						<br>
+						As a part of the assignment, I was required to critique the original
+						visualization using Stephen Few's <a href="http://www.perceptualedge.com/articles/visual_business_intelligence/data_visualization_effectiveness_profile.pdf" target="_blank">
+						Data Visualization Effectiveness Profile</a>. Stephen proposed 
+						seven criteria for evaluating the effectiveness of a data 
+						visualization. These seven criteria are divided into two broad 
+						categories, namely <i>'Informative'</i> (Usefulness, Completeness, 
+						Perceptibility, Truthfulness, Intuitiveness) and <i>'Emotive'</i> . 
+						<br><br>
+						The metrics under Informative helps measure the effectiveness of the
+						visualization in producing understanding to the audience. And the 
+						metrics under Emotive helps measure the effectiveness of the 
+						visualization in producing useful emotional response to the 
+						audience. I critique the original visualizations below.
+						
+						<br><br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Informative 📊</h2>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">1. Usefulness</p> 
+						Is it useful for the intended audience? Does it communicate 
+						valuable information?
+						
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=80% width=80% src='img/usefulness.jpg'/></center>
+						
+						<br>
+						<ul>
+							<li>
+								The visualizations are useful to the <i>intended</i> audience 
+								(cricket lovers), and they communicate relevant information (with 
+								additional efforts from the audience). However, they are not 
+								the best in conveying the relevant information. 
+							</li>
+							<li>
+								At first site, considering the graphics in the 
+								visualizations, it seemed to me that the visualizations 
+								were trying to compare the sizes of the 
+								famous monuments across the cities! 
+							</li>
+						</ul>
+						
+						
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">2. Completeness</p> 
+						Does the visualization have everything necessary to make it 
+						understandable?
+						
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=80% width=80% src='img/completeness.jpg'/></center>
+						
+						<br>
+						<ul>
+							<li>
+								The visualizations are lacking in several aspects and thus
+								are not complete to convey the entire information. 
+							</li>
+							<li>
+								First of all, the title itself is incomplete. It does not 
+								state the year or the cricket tournament for which the 
+								visualisations were made. 
+							</li>
+							<li>
+								Futher, they contain irrelevant information which adds to 
+								complexity and reduces their completeness. 
+								Our main focus is to compare the batting and bowling 
+								averages the best cities. Considering this, I do not find
+								the details about runs ('Runs') and wickets ('Wkts') 
+								appropriate in this context. 
+							</li>
+							<li>
+								Moreover, some of the sentences in the text are not required
+								to convey the message that these visualizations aim for. 
+								Soem examples of such sentences include the following: 
+								<br><br><i>"It is produced some of the most prolific batsman like 
+								David Warner, Steven Smith, Michael Clarke, Steve Waugh, 
+								and Mark Waugh."</i>
+								<br><br><i>"The city has produced some very fine bowlers
+								like Shane Bond, Richard Hadlee, Matt Henry and Chris 
+								Harris."</i>
+								<br><br><i>"It is also the birthplace of England's hero
+								from the final, Ben Stokes."</i>
+							</li>
+							<li>
+								The large verbage in the visualizations 
+								details the message that these visualizations are trying 
+								to convey. It directly supports the fact that these 
+								visualizations lack clarity and thus are demanding 
+								further explanation by using text.  
+							</li>
+						</ul>
+						
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">3. Perceptibility</p> 
+						Can the reader understand the information with minimal effort? 
+						Is the visualization type appropriate?  Does it use illogical 
+						comparisons?
+						
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=80% width=80% src='img/perceptibility.jpg'/></center>
+						
+						<br>
+						<ul>
+							<li>
+								It took me a <b>lot of effort to grasp the information</b> that
+								these visualizations are trying to convey.
+							</li>
+							<li>
+								There is a lot of unnecessary detail in the visualizations. 
+								The 3-4 line explanations are not needed. Moreover, the data
+								about runs and wickets are not required in the respective
+								graphs. Further, the titles of the visualizations are 
+								unclear and incomplete. 
+							</li>
+							<li>
+								The chosen <b>visualization type is not appropriate</b> as well. 
+								Chosing the graphics of the famous buildings (in the cities)
+								to represent the respective cities is not apt in this
+								context. First of all, the users might not be aware of the
+								buildings. Next, having buildings to represent the cities, 
+								adds a historical/monumental touch to the visualizations. 
+								As soon as I see famous monuments and values on top of them,
+								I am motivated to think that these visualizations are 
+								comparing the heights of the famous monuments across the 
+								cities. 
+							</li>
+							<li>
+								The buildings are of various sizes and placing the data 
+								points above these buildings brings an <b>illogical comparison</b>.
+								It is human nature to think that taller objects should have
+								more value than shorter objects. However, this does not 
+								hold true in this context. At multiple points we observe that taller
+								objects (buildings) have lesser values (batting average, 
+								bowling average, runs, wickets) than shorter objects. 
+							</li>
+						</ul>
+						
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">4. Truthfulness</p> 
+						Is the visualization accurate, reliable and valid? Is it 
+						representing what it says it is, and in the most complete and 
+						truthful manner? Does it misrepresent the data or make 
+						comparisions that aren't correct?
+						
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=80% width=80% src='img/truthfulness.jpg'/></center>
+						
+						<br>
+						<ul>
+							<li>
+								Being a cricket fan, I find the data to be accuracte; 
+								however, I do not find the visualization to be reliable. It
+								seems attractive but can be misleading at first sight.
+							</li>
+							<li>
+								The different sized objects (buildings) used to represent 
+								the cities (having different bowling and batting averages!)
+								highlight comparisons that are not correct and thus 
+								misrepresents the data. 
+							</li>
+							<li>
+								The above insights, the incomplete
+								titles, multiple irrelevant information, and the heavy use 
+								of dark pink and violet (in the background) colors, do not help
+								in conveying the message in the most complete and truthful 
+								manner.
+							</li>
+						</ul>
+						
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">5. Intuitiveness</p> 
+						Is it easy to understand and clearly communicates the information? 
+						If unfamiliar, does it include easy to understand instructions on 
+						how to interpret it?
+						
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=80% width=80% src='img/intuitiveness.jpg'/></center>
+						
+						<br>
+						<ul>
+							<li>
+								I do not find the visualizations easy to understand since
+								they have used graphics (of various sizes) to represent 
+								something very simple. The graphics represent famous 
+								monuments in the respective cities; however, it would be 
+								difficult for the audience (even cricket lovers) to correctly
+								identify the monuments. Even, I did not know some of them!
+							</li>
+							<li>
+								Such visualizations are not familiar to a large audience.
+								I find the graphics to be distracting and irrelevant for 
+								the context and message to be conveyed. Moreover, there is 
+								no additional information provided to better interpret the 
+								visualizations. 
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Emotive 💝</h2>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">6. Aesthetics</p> 
+						It is interesting/enjoyable to look at?  Is it a good example of 
+						what a beautiful data visualization might look like?  Is it 
+						somewhere in the middle - pleasing but otherwise not distracting 
+						to look at?
+						
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=80% width=80% src='img/aesthetics.jpg'/></center>
+						
+						<br>
+						<ul>
+							<li> 
+								At first site, the visualization might come out to be 
+								attracitve, but later, it takes a lot of time to get
+								value out of these visualizations. 
+							<li>
+								I find the visualizations to be quite dull with the choice
+								of colors. Moreover, there is huge amount of text in them.
+							</li>
+							<li>
+								The abbreviations used to highlight the data points (Eg: 
+								'Wkts' and 'Avg') might not be known to a large audience. 
+								Having some knowledge about cricket and math, I could 
+								figure out that 'Wkts' is 'Wickets' and 'Avg' is 'Average'.
+								But this might not hold true for all cricket lovers. 
+							</li>
+							<li>
+								There is a lot of repeatation for each data point. The 
+								words 'Runs', 'Avg' and 'Wkts' are respectively repeated
+								for each data point. They add to complexity and disturb the 
+								aesthetics of the visualizations. The repeatation clearly 
+								indicates that the message is not easily conveyed to the 
+								audience. 	
+							</li>
+							<li>
+								The background is filled with violet and it makes be feel 
+								sleepy 😴💤 by staring at it for long! Painting the whole
+								background violet was definitely an incorrect choice. 
+							</li>
+							<li>
+								The labels on the x-axis are colored in brown with a violet
+								background. They hide properly in the background and 
+								unfortunately do not stand out well. 
+							</li>
+						</ul>
+						
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">7. Engagement</p> 
+						Does it lead the audience to learn more about the topic?  Does it 
+						inspire the audience to talk about the data or share it with others?				
+						
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=80% width=80% src='img/engagement.jpg'/></center>
+						
+						<br>
+						<ul>
+							<li>
+								The first look at these visualizations and the fancy 
+								graphics of the monuments might catch ones attention but
+								in line with the above discussion, they lack so much! 
+								The deficiencies (as discussed above) will not easily
+								motivate the audience to learn more about the topic or
+								dwell deeper into the data. 
+							</li>
+							<li>
+								Being not a great visualization, it is not inspiring the 
+								audience to talk more about the data or share it with 
+								others. I would not be motivated to forward the link of
+								the visualization to anybody. 
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Overall Observations</h2>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What stood out? 😃</p> 
+
+						<ul>
+							<li>
+								The graphics of the famous monuments in the cities stood 
+								out at first site.
+							</li>
+							<li>
+								The violet background color caught my attention.
+							</li>
+							<li>
+								The dark pink color of the monuments grabbed my attention 
+								next. 
+							</li>
+							<li>
+								Finally, the large amount of text made its way to my eyes, 
+								before I could start dwelling into what the visualizations
+								had to say.
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What worked well? 🤩</p> 
+
+						<ul>
+							<li>
+								The large graphics of the monuments worked well in catching
+								the first attention. 
+							</li>
+							<li>
+								The large font size of titles were (somewhat) effective to 
+								convey what the visualizations were about. 
+							</li>
+							<li>
+								The values for each data point. Though they are not 
+								properly represented, this worked out well because without 
+								them, I think the visualizations would become completely 
+								useless. 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What did not work well? 😕</p> 
+
+						<ul>
+							<li>
+								The background colored in violet. 
+							</li>
+							<li>
+								Incomplete titles of the visualizations. They missed
+								the year and tournament for which the data was displayed. 
+							</li>
+							<li>
+								The huge amount of text (large sentences!) in the 
+								visualizations trying to convey the message. 
+							</li>
+							<li>
+								Use of graphics of the famous monuments in the cities to
+								respectively represent the cities. 
+							</li>
+							<li>
+								Use of dark pink color in the graphics and in the 
+								background.
+							</li>
+							<li>
+								Repeatitions in the data points. 'Runs', 'Avg' and 'Wkts' 
+								were over and over again!
+							</li>
+							<li>
+								Use of abbreviations (for 'Avg' and 'Wkts') while 
+								representing the data points.
+							</li>
+							<li>
+								X-axis labels colored in light brown on top of a dull 
+								violet background. 
+							</li>
+							<li>
+								The various heights of the graphical monuments. 
+							</li>
+							<li>
+								The irrelevant details about 'Runs' and 'Wkts' in the 
+								respective visualizations. 
+							</li>
+							<li>
+								Placing the data values of top of each graphical monument
+								(of various heights).
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What would you do differently? 📝</p> 
+
+						<ul>
+							<li>
+								Remove the background color.
+							</li>
+							<li>
+								Update the titles of the visualisations.
+							</li>
+							<li>
+								Use a bar graph instead of graphical monuments to represent
+								the data points. 
+							</li>
+							<li>
+								Remove the large sentences from the visualizations.
+							</li>
+							<li>
+								Remove the details about 'Runs' and 'Wkts' from each data
+								point. 
+							</li>
+							<li>
+								Color the bars of the bar chart with relevant colors. I 
+								am planning to use the national cricket team colors of 
+								the respective countries the cities are a part of. It would
+								perfectly align with the theme of Cricket World Cup.
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Audience Analysis</h2>
+						Who is the primary audience for this tool?  Do you think this 
+						visualization is effective for reaching that audience?  Why or 
+						why not?
+
+						<br><br>
+						<ul>
+							<li>
+								The primary audience for these visualizations are cricket
+								enthusiasts or people who know cricket. 
+							</li>
+							<li>
+								However, I do not think that these visualisations have
+								come out to be effective in reaching out to the audience. 
+							</li>
+							<li>
+								If I (being a big cricket fan) was scrolling through my 
+								feed and I come across these visualizations, I would not 
+								pause and think that these visualizations convey some 
+								useful information about cricket. With the graphical 
+								monuments and numbers on top of each of them, I would
+								think of these as some civic or historical graphs which are 
+								trying to compare the heights of various monuments across
+								the numerous cities. 
+							</li>
+							<li>
+								At one point, on a broder view, I also thought of these 
+								visualizations as some greeting cards of a festival (they
+								closely reside with a few cards I sent to my friends this 
+								year of the occasion of the famous festival in India - 
+								Diwali...🪔). The monuments are no lesser than 
+								some attractive design on a greeting card and the large 
+								amount of text suits the greeting message. 
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Final Thoughts</h2>
+						How successful was this method at evaluating the data 
+						visualization you selected? Are there measures you feel are 
+						missing or not being captured here? What would you change? 
+						Provide 1-2 recommendations (color, type of visualization, 
+						layout, etc.).
+
+						<br><br>
+						<ul>
+							<li>
+								I find the above evaluation and critiquing technique to be
+								very effective of the data visualizations I selected. The 
+								evaluation method was detailed and helped evaluate various
+								aspects of the visualizations. 
+							</li>
+							<li>
+								I find this approach to be better than the Good Charts 
+								method. It is mainly because of the fact that this 
+								critiquing approach has lot more useful metrics to evaluate
+								the visualizations than those used by the Good Charts 
+								method. 
+							</li>
+							<li>
+								The Good Charts method guides one from the first 
+								sight of the visualization to suggesting what is to be 
+								changed in the visualization. The quantitative evaluation 
+								then follows for two metrics, namely 'Design Execution' 
+								and 'Contextual Awareness'. 
+							</li>
+							<li>
+								I like Stephen Few's approach better because it has lot 
+								more quantitative evaluations which cover multiple aspects 
+								of the visualizations. Further, all the quantitative 
+								evaluations can be placed in one chart to get a better 
+								understanding of the visualizations being evaluated. 
+							</li>
+							
+							<br>
+							<b>Recommendations:</b>
+							<br><br>
+							<li>
+								As a recommendation, I would suggest adding <b>'Color'</b>
+								as an additional metric under the 'Emotive' category. 
+							</li>
+							<li>
+								I understand that we are evaluating <i>'Aesthetics'</i>, 
+								but I believe that <i>Aesthetics</i> is a much broder 
+								umbrella as compared to <i>Color</i>. No doubt, we would 
+								evaluate <i>Color</i> when we are evaluating 
+								<i>Aesthetics</i>, but <i>Color</i> would be a small 
+								part of this evaluation. 
+							</li>
+							<li>
+								<i>Aesthetics</i> would measure much more, including 
+								orientation, layout, visual appeal, color, choice of 
+								visualization, size, shape, etc.
+							</li>
+							<li>
+								<i>Color</i> on the other end, would evaluate a very 
+								specific and extremely important aspect of the 
+								visualizations. Such specific evaluation of a particular
+								and important aspect of the visualizations could also
+								help drive the focus during the redesign phase of the
+								visualization. 
+							</li>
+						</ul>
+						
+						<br><br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 26px; font-weight: bold;">Step 3: Sketch out a solution</h2>
+						
+						To better convey the message of the original visualizations, I 
+						decided to incorporate the following changes in my initial sketches:
+						
+						<br><br>
+						<ul>
+							<li>
+								<b>Type of Visualization</b>: 
+								I changed the visualization type to bar charts and tree maps
+								since they are much simpler and easy to understand as 
+								compared to the complex and disturbing graphical monuments 
+								in the original	visualizations. However, upon comparing the 
+								bar charts and tree maps, I prefer going forward with bar charts, but
+								I thought to decide upon this after testing them out with the interviewees.
+							</li>
+							<li>
+								<b>Title</b>: 
+								I changed the titles of the charts to make them	more clear 
+								and effective in conveying the main takeaway to the audience.
+							</li>
+							<li>
+								<b>Irrelevant Information</b>:
+								I removed the irrelevant information from the charts 
+								including the long sentences and the repeated text ('Runs', 
+								'Wkts' and 'Avg') for each data point.
+								
+							</li>
+							<li>
+								<b>Color</b>:
+								This was an interesting decision! After quite some thought, 
+								I have colored the bars (in the bar chart) and areas (in the
+								treemap) of the cities with their respective national 
+								cricket team colors. 
+							</li>
+							<li>
+								<b>Background Color</b>: 
+								The background color in the original visualizations was not 
+								required and hence I have removed it in my sketches. It 
+								has made the sketches much more appealing. 
+							</li>
+							<li>
+								<b>Legend</b>: 
+								Since I have colored the bars/areas based on the national cricket
+								team colors of the cities, I thought it would be better to 
+								include a legend describing the colors of the countries. It 
+								would help the audience who is not well versed with the 
+								national cricket team colors of the cities. 
+							</li>
+						</ul>
+						
+						After incorporating the above changes, I have sketched multiple
+						wireframes for both the main (batting averages across the cities) and 
+						the bonus visualizations (bowling averages across the cities). 
+						Initially, I have sketched the visualizations by hand and then have
+						converted a neater version of them using the <a href="https://infogram.com" target="_blank">
+						Infogram</a> wireframing tool. 
+						<br><br>
+						Below, I have paired the wireframes together so that the first 
+						wireframe in the pair is hand sketched by me and the wireframe that
+						follows the hand sketch is generated by Infogram. 
+						
+						<br><br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Wireframes for the Main Visualization - Batting Talent</h2>
+						
+						Bar Chart for the Main Visualization
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=85% width=85% src='img/sketch_batting.jpg' alt='Sketch Batting'/></center>
+						<center>Source: <a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">ESPNcricinfo</a></center>
+						
+						<div class="infogram-embed" data-id="0c4064f4-347c-4539-a753-b28fa6fb535d" data-type="interactive" data-title="Batting"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/0c4064f4-347c-4539-a753-b28fa6fb535d" style="color:#989898!important;text-decoration:none!important;" target="_blank">Bar Chart Batting</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+						
+						Treemap for the Main Visualization
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=85% width=85% src='img/treemap_batting.jpg' alt='Sketch Batting'/></center>
+						<center>Source: <a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">ESPNcricinfo</a></center>
+
+						<div class="infogram-embed" data-id="18786e37-f24b-4977-a085-a32bbd289f25" data-type="interactive" data-title="Copy: Treemap Batting"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/18786e37-f24b-4977-a085-a32bbd289f25" style="color:#989898!important;text-decoration:none!important;" target="_blank">Treemap Batting</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+						
+						<br><br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Wireframes for the Bonus Visualization - Bowling Talent</h2>
+						
+						Bar Chart for the Bonus Visualization
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=85% width=85% src='img/sketch_bowling.jpg' alt='Sketch Bowling'/></center>
+						<center>Source: <a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">ESPNcricinfo</a></center>
+			
+						<div class="infogram-embed" data-id="a5fd1269-9ebc-4945-b71e-fb04c1cf130e" data-type="interactive" data-title="Column Chart"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/a5fd1269-9ebc-4945-b71e-fb04c1cf130e" style="color:#989898!important;text-decoration:none!important;" target="_blank">Bar Chart Bowling</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+						
+						Treemap for the Bonus Visualization
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=85% width=85% src='img/treemap_bowling.jpg' alt='Sketch Bowling'/></center>
+						<center>Source: <a href="https://www.espncricinfo.com/story/which-top-cricket-city-would-win-the-world-cup-1196522" target="_blank">ESPNcricinfo</a></center>
+
+						<div class="infogram-embed" data-id="c1fe3c8f-e3f8-40e5-9947-d574a88945d4" data-type="interactive" data-title="Treemap Batting"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/c1fe3c8f-e3f8-40e5-9947-d574a88945d4" style="color:#989898!important;text-decoration:none!important;" target="_blank">Treemap Bowling</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 26px; font-weight: bold;">Step 4: Test the solution</h2>
+						<br>
+						
+						To test my sketches and wireframes, I contacted 3 people with various 
+						backgrounds. I contacted 2 cricket enthusiasts and 1 non-cricket 
+						enthusiast so that I could get the views of both these types of 
+						people and could understand how my sketches reach out to them. All
+						3 interviewees that I chose were from different countries and had 
+						different professions. I shared with each one of them, the original 
+						visualizations and the wireframes generated in Infogram to review.
+						I have detailed my interactions with the interviewees below. 
+					
+						<div class="container content">
+							<div class="column">
+								<div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="card">
+										<div class="card-header">Interviewee 1: Circket Enthusiast | Mid 20's | Software Developer from India </div>
+										<div class="card-body height3">
+											<ul class="chat-list">
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Can you tell me what you think this is?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																These graphs describe the cities with the best 
+																batting and bowling averages in cricket. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Can you describe to me what this is telling you?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																Batting average is the best for Australia, 
+																especially for the cities Sydney and Launceston. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																As far as bowling is concerned, Zimbabwe has the 
+																best bowling average.
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Is there anything you find surprising or confusing?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																Yes, it is surprising to me that Zimbabwe has the 
+																best bowling average!
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																It is not so good at bowling as compared to the 
+																other cities in the graph. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Who do you think is the intended audience for this?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																Circket enthusiasts or cricket experts. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Is there anything you would change or do differently?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																Overall, it is a very good graph.  
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																I see that you have colored the charts based on the
+																color of the clothes that the particular circket team
+																wears in World Cup. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																However, I feel that for Christchurch, gray
+																or black would be a better fit. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																New Zealand wears brown, but usually they are seen 
+																in gray or black. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Which visualization type do you think represents the 
+																information better? The bar chart or the tree map? Why?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																Bar chart because it displays the variation in the averages clearly. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																How would you rate the above chosen visualization on a 
+																scale of 1 (poor) to 5 (best)?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																5
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																How much better are these charts as compared to the
+																original ones (-100% to 100%)?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 1</h5>
+															<p>
+																80% better. 
+															</p>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								<br><br><br>
+								
+								<div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="card">
+										<div class="card-header">Interviewee 2: Circket Enthusiast | Mid 30's | Businessman in Australia </div>
+										<div class="card-body height3">
+											<ul class="chat-list">
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Can you tell me what you think this is?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																The charts show the cities with the best cricket 
+																batting and bowling talents across the world.  
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Can you describe to me what this is telling you?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																In the bar graph of batting averages, the 
+																cities have been arranged from best to worst 
+																batting averages and in the bar graph of 
+																bowling averages, the cities have been arranged 
+																from worst to best bowling averages.
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																For the tree map, I see that cities with larger averages 
+																occupy more area in the map than the cities with smaller
+																averages. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Is there anything you find surprising or confusing?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																Nope, nothing surprises me here!
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Who do you think is the intended audience for this?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																Sports enthusiasts, especially those 
+																people who are fond of cricket. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Is there anything you would change or do differently?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																Higher bowling average indicates poorer performance. 
+																The bars in the charts are arranged in two different 
+																orders.
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																The batting averages graph orders cities with
+																best to worst batting averages. Contrary to this, the 
+																bowling averages graph orders the cities from worst to
+																best performance. Among the five cities, Harare is 
+																performing the worst and Sydney is performing the best.
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 1: <br>
+																To maintain the same order in both graphs, I
+																suggest that you reverse the order of bars in 
+																the bowling averages graph.
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 2: <br>
+																Add flags of the countries in the bars or squares/rectangles. You can also 
+																place them below the legend names to make this graph look more attractive. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Which visualization type do you think represents the 
+																information better? The bar chart or the tree map? Why?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																Bar chart because the tree map does not convey as much information 
+																as the bar chart. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																How would you rate the above chosen visualization on a 
+																scale of 1 (poor) to 5 (best)?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																4
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																How much better are these charts as compared to the
+																original ones (-100% to 100%)?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 2</h5>
+															<p>
+																80% better. 
+															</p>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								<br><br><br>
+								
+								<div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="card">
+										<div class="card-header">Interviewee 3: Not a Cricket Enthusiast | Mid 20's | Data Analyst from USA </div>
+										<div class="card-body height3">
+											<ul class="chat-list">
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Can you tell me what you think this is?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																The graphs describe the batting and 
+																bolwing averages of different cities. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Can you describe to me what this is telling you?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																In the bar chart, I observe a decreasing trend of batting and 
+																bowling averages. In the tree map, it is difficult to identify 
+																this trend. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Is there anything you find surprising or confusing?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																The legends have the name of countries and the
+																x-axis labels are cities in the bar chart! Similarly, 
+																for the tree map, the legends represent the countries 
+																and the areas in the tree map are cities. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Who do you think is the intended audience for this?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																Cricket enthusiasts or people who want a 
+																get a brief overview of the batting and 
+																bolwing trends in cricket. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Is there anything you would change or do differently?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																I have a couple of suggestions for these charts. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 1: <br>
+																Keep the bar values on the top of the bars, 
+																because the numbers are not visible in some 
+																of the dark-colored bars. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 2: <br>
+																Remove the legend for countries and keep the
+																country names below their respective cities for the bar chart
+																and in the respective areas in the tree map. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 3: <br>
+																X-axis labels in the bar chart can be tilted to fit larger city names.  
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 4: <br>
+																If you plan to keep the legends, try and check how 
+																they fit on the right of the graph (outside the 
+																main graph basically). 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 5: <br>
+																If you plan to keep the legends, make them stacked 
+																and not all in one horizontal line. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 6: <br>
+																I do not know most of the x-axis labels in the bar chart. Some of 
+																them are very new to me. Are they cities or
+																names of stadiums or something else? I am not sure 
+																as I do not know much about cricket. You might want
+																to work around this. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 7: <br>
+																If you plan to keep the numbers in the bars (and 
+																not on top of the bars), make the numbers
+																larger and bolder. 
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<p>
+																Suggestion 8: <br>
+																Being not so knowledgable about cricket terminology,
+																I do not know what is a 'batting average' and
+																what is a 'bowling average'. You can define these 
+																terms below the title or below the graph to make it
+																reach a wider audience.
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																Which visualization type do you think represents the 
+																information better? The bar chart or the tree map? Why?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																Definitely bar chart because it is relatively easy to understand 
+																and conveys the information more clearly than the tree map. In the
+																tree map, the decreasing or increasing trend in the averages are hard
+																to figure out.
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																How would you rate the above chosen visualization on a 
+																scale of 1 (poor) to 5 (best)?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																3.5
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="in">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Shivam Patel</h5>
+															<p>
+																How much better are these charts as compared to the
+																original ones (-100% to 100%)?
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="out">
+													<div class="chat-img">
+														<img alt="Avtar" src="https://bootdey.com/img/Content/avatar/avatar7.png">
+													</div>
+													<div class="chat-body">
+														<div class="chat-message">
+															<h5>Interviewee 3</h5>
+															<p>
+																70% better. 
+															</p>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						Source for HTML Chat Template: <a href="https://www.bootdey.com/snippets/download/card-chat-list" target="_blank">Bootdey</a>
+						
+						<br><br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Insights from the Interviews</h2>
+						
+						<br>
+						<b>Similarities</b>
+						<ul>
+							<li>
+								The bar charts are better than the tree maps.
+							</li>
+							<li>
+								The intended audience for the visualizations is cricket	enthusiasts. 
+							</li>
+							<li>
+								The sketches have improved the original visualizations.
+							</li>
+							<li>
+								The ordering of the bars in the bowling averages chart
+								was misleading. 
+							</li>
+							<li>
+								The main idea of the visualizations was clear from the 
+								titles in the sketches. 
+							</li>
+						</ul>
+						
+						<b>Differences</b>
+						<ul>
+							<li>
+								The first interviewee focused on improving the colors in the 
+								visualizations. 
+							</li>
+							<li>
+								The second interviewee focused on the ordering of the bars in the
+								bar charts. 
+							</li>
+							<li>
+								The third interviewee, being a data analyst, focused on a lot of 
+								aspects of the visualizations such a labels, legends, titles, 
+								sub-titles, and the organization of various elements in these
+								visualizations.
+							</li>
+						</ul>
+						
+						<b>What patterns emerge in the feedback?</b>
+						<ul>
+							<li>
+								Bar charts are better than the tree maps for this context. 
+							</li>
+							<li>
+								Sketches have improved the original visualizations.
+							</li>
+							<li>
+								Ordering of the bars in the bowling averages chart
+								is misleading.
+							</li>
+							<li>
+								The titles in the sketches were in conveying the main message 
+								of the charts. 
+							</li>
+						</ul>
+						
+						<b>What did you learn from the feedback?</b>
+						<ul>
+							<li>
+								Effective titles are very useful in conveying the main 
+								message of the visualizations. 
+							</li>
+							<li>
+								Heights can be misleading in visualizations and should be
+								used carefully.
+							</li>
+							<li>
+								Even big companies like ESPNcricinfo can produce poor
+								visualizations.
+							</li>
+							<li>
+								(My favorite) This course is super relevant
+								and important to me :)
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 26px; font-weight: bold;">Step 5: Build your solution</h2>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Design Changes after the Interviews</h2>
+					
+						<ul>
+							<li>
+								I used Flourish to build my final visualizations.
+							</li>
+							<li>
+								I removed the tree maps from my choice. 
+							</li>
+							<li>
+								I added the word 'Country' in bold to help the audience 
+								better understand the legends.   
+							</li>
+							<li>
+								Since the bars in the bowling average bar chart were 
+								misleading, I reversed the order of the bars to have
+								lower bowling averages at the left and the higher 
+								bowling averages towards the right. 
+							</li>
+							<li>
+								However, just reversing the order of the bars in the 
+								bowling average bar chart was not enough. I had to convey 
+								that lower bowling averages and higher batting
+								averages are better. To do so, I updated the title of 
+								my y-axis in both the bar charts to the following -
+								<i>Batting Average (higher the better)</i> and
+								<i>Bowling Average (lower the better)</i>.
+							</li>
+							<li>
+								I added a footer defining batting average and bowling 
+								average to help these visualizations connect to a broader 
+								audience. 
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Updated Visualizations after the Interviews</h2>
+					
+						<div class="flourish-embed flourish-chart" data-src="visualisation/11806755"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						<br><br>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/11806835"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+					
+						<br><br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 26px; font-weight: bold;">Step 6: In-class peer review and feedback</h2>
+					
+						<br>
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What worked? 🤩</p> 
+
+						<ul>
+							<li>
+								The use of color worked extremely well. The decision of coloring the bars
+								based on the national cricket colors of the respective countries was well 
+								appreciated. 
+							</li>
+							<li>
+								The visualizations would be suitable for even those people who are not big
+								fans of cricket. 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What didn't work? 😕</p> 
+
+						<ul>
+							<li>
+								The font size of the y-axis title was too small. The words, <i>'higher the better'</i>
+								and <i>'lower the better'</i> are of key importance in charts and should be 
+								highlighted properly. 
+							</li>
+							<li>
+								It was initially suggested to increase the font size of the y-axis title. But later,
+								the peers suggested to highlight these words in the subtitles of the charts since
+								they play a big role in conveying the message. 
+							</li>
+							<li>
+								The numbers in the bars are not distracting but it is better to keep them at the
+								top of the bars rather than inside the bars. This would make the bars entirely 
+								visible. 
+							</li>
+							<li>
+								The footers seems to be hanging below. Since they are defining important terms in 
+								the charts, they can be connected to the Batting Average and Bowling Average by using 
+								an asterisk (*) symbol.
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What questions came up? 🙋🏻‍♂️</p> 
+
+						<ul>
+							<li>
+								Pretty much none! 
+							</li>
+						</ul>
+						
+						<p style="font-size: 19px; font-weight: bold; margin-bottom: 3px;">What new inspiration arose? 😃</p> 
+
+						<ul>
+							<li>
+								Linking the national cricket team color to the bars was found insightful!
+							</li>
+							<li>
+								The theme of circket was interesting to all the peers since mostly nobody
+								knew about cricket before. It lead to some fun discussions later on. 
+							</li>
+						</ul>
+					
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 26px; font-weight: bold;">Step 7: Final solution</h2>
+					
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Changes for the Final Re-Design</h2>
+					
+						<ul>
+							<li>
+								I added a subtitle for the respective bar charts to highlight the fact that
+								higher batting averages and lower bowling averages are better. 
+							</li>
+							<li>
+								The font size of the title of the y-axis was increased.  
+							</li>
+							<li>
+								The words, <i>(higher the better)</i> and <i>(lower the better)</i> were 
+								removed from the respective y-axis titles. 
+							</li>
+							<li>
+								The y-axis titles were connected to the footer notes using an 
+								asterisk (*) symbol.
+							</li>
+							<li>
+								The numbers inside the bars were moved outside, to the top of the bars.
+							</li>
+						</ul>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="color: SteelBlue; font-size: 23px; font-weight: bold;">Final Re-Design of the Original Visualizations</h2>
+					
+						<br>
+						<b>Final Re-Design of the Main Visualization</b>
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=75% width=75% src='img/original_batting.jpeg' alt='Original Batting'/></center>
+						<center><img style='display:inline; border-radius: 0%;' height=75% width=75% src='img/arrow.png' alt='Arrow'/></center>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/11832767"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						<br><br>
+						
+						<b>Final Re-Design of the Bonus Visualization</b>
+						<br><br>
+						<center><img style='display:inline; border-radius: 0%;' height=75% width=75% src='img/original_bowling.jpeg' alt='Original Bowling'/></center>
+						<center><img style='display:inline; border-radius: 0%;' height=75% width=75% src='img/arrow.png' alt='Arrow'/></center>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/11832757"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						
+						<br>
+						<h2 class="page__title" itemprop="headline" style="font-size: 23px; font-weight: bold;">Portfolio Navigation 🏃🏻</h2>
+						
+						<ul>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio">Home Page</a>: Going back to the start...
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/assignment1.html">Assignment 1</a>: Setting up an online portfolio for the course (this website!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/assignment2.html">Assignment 2</a>: Visualizing Government Debt
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/project_part1.html">Final Project - Part 1</a>: Coming Up ... (Stay Tuned!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/project_part2.html">Final Project - Part 2</a>: Coming Up ... (Stay Tuned!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/project_part3.html">Final Project - Part 3</a>: Coming Up ... (Stay Tuned!)
+							</li>
+							<li>
+								<a href="https://shivampatel16.github.io/CMU-TSWD-Portfolio/workshops.html">Data Visualization Workshops</a>: Some extra visualizations for practice and exploration!
+							</li>
+						</ul>
+						
 					</section>
 					<footer class="page__meta"></footer>
 				</div>
 			</article>
 		</div>
+		
+		<style type="text/css">
+		
+		
+		</style>
+
+		<script type="text/javascript"></script>
 		<script src="js/main.js"></script> 
 	</body>
 	<span class="gr__tooltip">

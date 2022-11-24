@@ -1,0 +1,367 @@
+﻿Company,No. of reported layoffs,% workforce impacted,HQ,Company Status,Announced Date,Announced Month,Announced Year,Industry,,,Announced/reported date
+Chili Piper,58,Unclear,New York,Private,17,11,2022,Enterprise Software,Productivity,,11/17/2022
+The Zebra,90,Unclear,Austin,Private,15,11,2022,Insurance,Fintech,,11/15/2022
+Sema4,750,Unclear,Stamford,Public,14,11,2022,Artificial Intelligence,Health Care,,11/14/2022
+Coinbase,"1,160",Unclear,San Francisco,Public,10,11,2022,Crypto,,,11/10/2022
+Reforge,Unclear,Unclear,San Francisco,Private,10,11,2022,Hr Tech,,,11/10/2022
+Wistia,40,Unclear,Cambridge,Private,10,11,2022,Video Production,Marketing,,11/10/2022
+RingCentral,Unclear,Unclear,Belmont,Public,09,11,2022,Saas,Meeting Software,,11/9/2022
+AvantStay,224,Unclear,Los Angeles,Private,09,11,2022,Travel,,,11/9/2022
+Coursera,Unclear,Unclear,Mountain View,Public,09,11,2022,Edtech,,,11/9/2022
+Amobee,Unclear,Unclear,Redwood City,Private,09,11,2022,Adtech,Digital Marketing,,11/9/2022
+Salesforce,1090,Unclear,San Francisco,Public,07,11,2022,Enterprise Tech,Analytics,,11/7/2022
+Domino Data Lab,Unclear,Unclear,San Francisco,Private,07,11,2022,Artificial Intelligence,Big Data,,11/7/2022
+Twitter,3700,Unclear,San Francisco,Private,04,11,2022,Social Media,,,11/4/2022
+Stripe,1050,Unclear,San Francisco,Private,03,11,2022,Fintech,,,11/3/2022
+Lyft,760,Unclear,San Francisco,Public,03,11,2022,Transportation,,,11/3/2022
+Gem,100,Unclear,San Francisco,Private,02,11,2022,Recruiting,,,11/2/2022
+Booking.com,226,Unclear,Grand Rapids,Private,01,11,2022,Travel,Hotels,,11/1/2022
+Nuro,310,Unclear,Mountain View,Private,18,11,2022,Transportation,,,11/18/2022
+Protocol Media,60,100%,San Francisco,Private,15,11,2022,News,Media,,11/15/2022
+Wavely,Unclear,100%,Palo Alto,Private,10,11,2022,Hiring,Hr,,11/10/2022
+Iron Ox,50,50%,San Francisco,Private,02,11,2022,Agtech,Food And Beverage,,11/2/2022
+Ocavu,20,48%,Lehi,Private,10,11,2022,Cryptocurrency,,,11/10/2022
+Root Insurance,467,40%,Columbus,Public,09,11,2022,Insurtech,,,11/9/2022
+Veev,100,30%,San Mateo,Private,11,11,2022,Proptech,,,11/11/2022
+Juul,400,30%,San Francisco,Public,10,11,2022,Consumer Goods,Vape Pens,,11/10/2022
+Lokalise,76,23%,Dover,Private,16,11,2022,Saas,Apis,,11/16/2022
+Exodus,59,22%,Nebraska City,Private,04,11,2022,Cryptocurrency,Blockchain,,11/4/2022
+Shippo,Unclear,20%,San Francisco,Private,03,11,2022,Logistics,,,11/3/2022
+Brightline,Unclear,20%,Palo Alto,Private,01,11,2022,Health Care,,,11/1/2022
+OfferUp,Unclear,19%,Bellevue,Private,15,11,2022,E-Commerce,Marketplace,,11/15/2022
+Opendoor,550,18%,San Francisco,Public,02,11,2022,Proptech,,,11/2/2022
+OwnBackup,170,17%,Englewood Cliffs,Private,15,11,2022,Saas,Enterprise Software,,11/15/2022
+Astra,Unclear,16%,Alameda,Public,08,11,2022,Aerospace,Space,,11/8/2022
+Code42,Unclear,15%,Minneapolis,Private,07,11,2022,Cybersecurity,Enterprise Software,,11/7/2022
+Benitago Group,Unclear,14%,New York,Private,04,11,2022,E-Commerce,Retail,,11/4/2022
+Intercom,124,13%,San Franicsco,Private,14,11,2022,Customer Service,Automation,,11/14/2022
+Meta,1100,13%,Menlo Park,Public,09,11,2022,Social Media,,,11/9/2022
+Digital Currency Group,10,13%,Stamford,Private,02,11,2022,Cryptocurrency,,,11/2/2022
+Chime,156,12%,San Francisco,Private,02,11,2022,Fintech,,,11/2/2022
+Salsify,90,11%,Boston,Private,16,11,2022,Cloud Computing,E-Commerce,,11/16/2022
+SADA,Unclear,11%,Los Angeles,Private,08,11,2022,Cloud Computing,Information Technology,,11/8/2022
+Similarweb,120,10%,New York,Public,16,11,2022,Artificial Intelligence,Analytics,,11/16/2022
+SoundHound,45,10%,Santa Clara,Public,10,11,2022,Conversational Ai,,,11/10/2022
+Mythical Games,Unclear,10%,Los Angeles,Private,04,11,2022,Video Games,Blockchain,,11/4/2022
+Chargebee,142,10%,San Francisco,Private,02,11,2022,Fintech,Saas,,11/2/2022
+Yotpo,70,9%,New York,Private,16,11,2022,Marketing,Media,,11/16/2022
+Asana,180,9%,San Francisco,Public,15,11,2022,Collaboration,Enterprise Software,,11/15/2022
+Redfin,1332,9%,Seattle,Public,09,11,2022,Proptech,,,11/9/2022
+Roku,200,7%,Los Gatos,Public,17,11,2022,Media,Streaming,,11/17/2022
+Kabam,35,7%,San Francisco,Private,09,11,2022,Video Games,,,11/9/2022
+Faire,84,7%,San Francisco,Private,03,11,2022,E-Commerce,Retail,,11/3/2022
+Upstart,60,7%,San Carlos,Private,01,11,2022,Fintech,,,11/1/2022
+Cisco,4100,5%,San Jose,Public,16,11,2022,Enterprise Software,Saas,,11/16/2022
+Zendesk,350,5%,San Francisco,Public,07,11,2022,Enterprise Software,Customer Service,,11/7/2022
+Varonis Systems,110,5%,New York,Private,06,11,2022,Cybersecurity,,,11/6/2022
+Amazon,"10,000",3%,Seattle,Public,14,11,2022,E-Commerce,Saas,,11/14/2022
+Affirm,Unclear,1%,San Francisco,Public,03,11,2022,Fintech,Loans,,11/3/2022
+Notarize,170,Unclear,Boston,Private,31,10,2022,Legal Tech,,,10/31/2022
+Spreetail,Unclear,Unclear,Lincoln,Private,27,10,2022,Retail,E-Commerce,,10/27/2022
+Callisto Media,Unclear,Unclear,Emeryville,Private,25,10,2022,Analytics,,,10/25/2022
+TigerGraph,Unclear,Unclear,Redwood City,Private,25,10,2022,Analytics,,,10/25/2022
+Snyk,220,Unclear,Boston,Private,24,10,2022,Cybersecurity,,,10/24/2022
+Cerebral,Unclear,Unclear,San Francisco,Private,24,10,2022,Health Care,,,10/24/2022
+Gopuff,"2,200",Unclear,Philadelphia,Private,21,10,2022,E-Commerce,,,10/21/2022
+Loom,57,Unclear,San Francisco,Private,20,10,2022,Enterprise Communication,,,10/20/2022
+Clever Real Estate,Unclear,Unclear,St. Louis,Private,19,10,2022,Proptech,,,10/19/2022
+Noodle,Unclear,Unclear,New York,Private,18,10,2022,Edtech,,,10/18/2022
+Beyond Meat,240,Unclear,Manhattan Beach,Public,14,10,2022,Foodtech,,,10/14/2022
+Noom,"1,095",Unclear,New York,Private,11,10,2022,Fitness,Digital Health,,10/11/2022
+Rev.com,85,Unclear,San Francisco,Private,07,10,2022,Speech Recognition,Artificial Intelligence,,10/7/2022
+Peloton,"4,084",Unclear,New York,Public,06,10,2022,Fitness,,,10/6/2022
+Spotify,Unclear,Unclear,Stockholm,Public,06,10,2022,Music,,,10/6/2022
+Built In,Unclear,Unclear,Chicago,Private,05,10,2022,Networking,,,10/5/2022
+Homie,162,Unclear,South Jordan,Private,04,10,2022,Proptech,,,10/4/2022
+Fifth Season,Unclear,100%,Pittsburgh,Private,28,10,2022,Vertical Farming,,,10/28/2022
+Argo AI,Unclear,100%,Pittsburgh,Private,26,10,2022,Transportation,,,10/26/2022
+Volta Charging,Unclear,54%,San Francisco,Public,21,10,2022,Automotive,Electric Vehicles,,10/21/2022
+Starry,Unclear,50%,Boston,Public,20,10,2022,Wifi,Hardware,,10/20/2022
+Zeus Living,64,46%,San Francisco,Private,20,10,2022,Home Decor,Proptech,,10/20/2022
+Fundbox,150,42%,San Francisco,Private,25,10,2022,Fintech,,,10/25/2022
+AtoB,32,30%,San Francisco,Private,19,10,2022,Fintech,,,10/19/2022
+Pacaso,100,30%,San Francisco,Private,11,10,2022,Proptech,,,10/11/2022
+EquityZen,30,27%,New York,Private,31,10,2022,Fintech,,,10/31/2022
+Clear Capital,378,27%,Truckee,Private,14,10,2022,Proptech,,,10/14/2022
+Advata,32,21%,Bellevue,Private,28,10,2022,Health Care,Analytics,,10/28/2022
+Leafly,56,21%,Seattle,Public,18,10,2022,Cannabis,,,10/18/2022
+Flipboard,24,21%,Palo Alto,Private,16,10,2022,News,,,10/16/2022
+Equitybee,25,20%,San Francisco,Private,31,10,2022,Fintech,,,10/31/2022
+Redesign Health,67,20%,New York,Private,10,10,2022,Health Care,,,10/10/2022
+Recharge,84,17%,Los Angeles,Private,27,10,2022,Fintech,,,10/27/2022
+Udacity,55,13%,Mountain View,Private,11,10,2022,Edtech,Artificial Intelligence,,10/11/2022
+GoFundMe,94,12%,Redwood City,Private,26,10,2022,Crowdfunding,,,10/26/2022
+Embroker,30,12%,San Francisco,Private,25,10,2022,Insurtech,,,10/25/2022
+Momentive,Unclear,11%,Waterford,Private,14,10,2022,Information Technology,,,10/14/2022
+Brex,136,11%,San Francisco,Private,11,10,2022,Fintech,,,10/11/2022
+Khoros,120,10%,Austin,Private,21,10,2022,Saas,Enterprise Software,,10/21/2022
+6sense,150,10%,San Francisco,Private,12,10,2022,Artificial Intelligence,Machine Learning,,10/12/2022
+Zillow,300,5%,Seattle,Public,26,10,2022,Proptech,,,10/26/2022
+F5,100,1%,Seattle,Public,21,10,2022,Saas,Enterprise Software,,10/21/2022
+TruePill,Unclear,Unclear,Hayward,Private,30,09,2022,Pharmaceutical,Health Care,,9/30/2022
+Instacart,Unclear,Unclear,San Francisco,Private,24,09,2022,Delivery,E-Commerce,,9/24/2022
+Klarna,Unclear,Unclear,Stockholm,Private,22,09,2022,Fintech,,,9/22/2022
+Compass,Unclear,Unclear,New York,Public,20,09,2022,Proptech,,,9/20/2022
+Curative,109,Unclear,Los Angeles,Private,20,09,2022,Health Diagnostics,,,9/20/2022
+DayTwo,Unclear,Unclear,Walnut Creek,Private,15,09,2022,Health Care,Nutrition,,9/15/2022
+LivePerson,Unclear,Unclear,New York,Public,15,09,2022,Customer Service,,,9/15/2022
+WorkRamp,Unclear,Unclear,San Carlos,Private,15,09,2022,Saas,Enterprise Software,,9/15/2022
+Netflix,480,Unclear,Los Gatos,Public,14,09,2022,Media,Entertainment,,9/14/2022
+Sundae,Unclear,Unclear,San Francisco,Private,13,09,2022,Proptech,,,9/13/2022
+Sama,Unclear,Unclear,San Francisco,Private,12,09,2022,Artificial Intelligence,Enterprise Software,,9/12/2022
+DreamBox Learning,Unclear,Unclear,Seattle,Private,09,09,2022,Edtech,,,9/9/2022
+FullStory,Unclear,Unclear,Atlanta,Private,08,09,2022,Saas,Data,,9/8/2022
+realtor.com,Unclear,Unclear,Santa Clara,Private,08,09,2022,Proptech,,,9/8/2022
+Pesto,Unclear,100%,San Francisco,Private,23,09,2022,Information Technology,Future Of Work,,9/23/2022
+Kitty Hawk,Unclear,100%,Mountain View,Private,21,09,2022,Aerospace,,,9/21/2022
+CommonBond,Unclear,100%,New York,Private,09,09,2022,Fintech,Loan Repayments,,9/9/2022
+Medly Pharmacy,Unclear,50%,New York,Private,07,09,2022,Pharmacy,Health Care,,9/7/2022
+Brave Care,40,33%,Portland,Private,06,09,2022,Pediatrics,Telehealth,,9/6/2022
+Medium,Unclear,25%,San Francisco,Private,06,09,2022,Publishing,,,9/6/2022
+Rent the Runway,Unclear,24%,New York,Public,12,09,2022,E-Commerce,Retail,,9/12/2022
+Karbon,Unclear,23%,San Francisco,Private,12,09,2022,Productivity,Task Management,,9/12/2022
+Patreon,80,17%,San Francisco,Private,13,09,2022,Social Media,,,9/13/2022
+Flowhub,Unclear,15%,Dever,Private,09,09,2022,Cannabis,,,9/9/2022
+Juniper Square,Unclear,14%,San Francisco,Private,06,09,2022,Proptech,,,9/6/2022
+Divvy Homes,40,12%,San Franicsco,Private,27,09,2022,Proptech,,,9/27/2022
+Twilio,800,11%,San Francisco,Public,14,09,2022,Enterprise Software,,,9/14/2022
+Spin,78,10%,San Francisco,Private,30,09,2022,Transportation,,,9/30/2022
+DocuSign,Unclear,9%,San Francisco,Public,28,09,2022,E-Signature,,,9/28/2022
+Innovaccer,120,8%,San Francisco,Private,01,09,2022,Cloud Infrastructure,Health Care,,9/1/2022
+BigBear.ai,Unclear,7%,Columbia,Public,08,09,2022,Data Analytics,National Defense,,9/8/2022
+Taboola,Unclear,6%,New York,Public,13,09,2022,Content Marketing,,,9/13/2022
+Foxtrot,26,4%,Chicago,Private,23,09,2022,Food And Beverage,E-Commerce,,9/23/2022
+VideoAmp,Unclear,2%,Los Angeles,Private,19,09,2022,Advertising Platforms,,,9/19/2022
+Nate,30,Unclear,New York,Private,30,08,2022,E-Commerce,,,8/30/2022
+Skillz,Unclear,Unclear,San Francisco,Public,29,08,2022,Mobile Apps,Gaming,,8/29/2022
+Fungible,Unclear,Unclear,Santa Clara,Private,29,08,2022,Cryptocurrency,,,8/29/2022
+Okta,24,Unclear,San Francisco,Public,26,08,2022,Enterprise Software,Management Information Systems,,8/26/2022
+FreshDirect,40,Unclear,The Bronx,Private,25,08,2022,Food Delivery,E-Commerce,,8/25/2022
+Pix,Unclear,Unclear,Napa,Private,24,08,2022,Foodtech,,,8/24/2022
+Wayfair,870,Unclear,Boston,Public,19,08,2022,E-Commerce,Retail,,8/19/2022
+Tempo Automation,54,Unclear,San Francisco,Private,17,08,2022,Automotive,,,8/17/2022
+Orbit,Unclear,Unclear,San Francisco,Private,12,08,2022,Productivity Software,,,8/12/2022
+Vroom,647,Unclear,New York,Public,08,08,2022,Auto,E-Commerce,,8/8/2022
+Warby Parker,63,Unclear,New York City,Public,08,08,2022,E-Commerce,Fashion,,8/8/2022
+DataRobot,Unclear,Unclear,Boston,Private,08,08,2022,Artificial Intelligence,,,8/8/2022
+StubHub,Unclear,Unclear,San Francisco,Private,04,08,2022,E-Commerce,Ticketing,,8/4/2022
+On Deck,73,Unclear,San Francisco,Private,04,08,2022,Networking,Business Development,,8/4/2022
+Healthcare.com,149,Unclear,Miami,Private,03,08,2022,Insurtech,,,8/3/2022
+Glossier,104,Unclear,New York,Private,02,08,2022,Beauty,,,8/2/2022
+Nylas,80,Unclear,San Francisco,Private,02,08,2022,Software,Emails,Api,8/2/2022
+Oracle,Unclear,Unclear,Austin,Public,01,08,2022,Saas,Enterprise Software,,8/1/2022
+Imperfect Foods,50,Unclear,San Francisco,Private,01,08,2022,Grocery,E-Commerce,Delivery Service,8/1/2022
+OnlyFans,Unclear,Unclear,London,Private,01,08,2022,Social Media,Creator Economy,,8/1/2022
+The Wing,Unclear,100%,New York,Private,31,08,2022,Coworking,,,8/31/2022
+Reali,140,100%,San Mateo,Private,24,08,2022,Proptech,,,8/24/2022
+Edmodo,Unclear,100%,San Mateo,Private,16,08,2022,Edtech,,,8/16/2022
+Haus,Unclear,100%,Healdsburg,Private,08,08,2022,Food And Beverage,,,8/8/2022
+Latch,115,37%,New York,Public,02,08,2022,Proptech,,,8/2/2022
+Almanac,Unclear,30%,San Francisco,Private,13,08,2022,Collaboration,Productivity,,8/13/2022
+Robinhood,"1,013",30%,Menlo Park,Public,02,08,2022,Fintech,,,8/2/2022
+DataRobot,,26%,Boston,Private,23,08,2022,Artificial Intelligence,Enterprise Software,,8/23/2022
+Blend,Unclear,25%,San Francisco,Public,15,08,2022,Fintech,Proptech,,8/15/2022
+Snap,1280,20%,Venice,Public,31,08,2022,Social Media,,,8/31/2022
+GoHealth,800,20%,Chicago,Public,11,08,2022,Health Care,Health Insurance,,8/11/2022
+Homeward,120,20%,Austin,Private,11,08,2022,Real Estate,Proptech,,8/11/2022
+Calm,90,20%,San Francisco,Private,11,08,2022,Personal Health,Wellness,,8/11/2022
+2U,Unclear,20%,Hyattsville,Public,01,08,2022,Edtech,,,8/1/2022
+Jam City,Unclear,17%,Culver City,Private,04,08,2022,Mobile Apps,Gaming,,8/4/2022
+GoodRx,140,16%,Los Angeles,Public,31,08,2022,Health Care,Pharmaceuticals,,8/31/2022
+Woven,5,15%,Indianapolis,Private,16,08,2022,Artificial Intelligence,Recruiting,,8/16/2022
+ThredUp,Unclear,15%,Oakland,Public,15,08,2022,E-Commerce,Fashion,,8/15/2022
+Groupon,500,15%,Chicago,Public,08,08,2022,E-Commerce,Retail,,8/8/2022
+Daily Harvest,Unclear,15%,New York City,Private,08,08,2022,Food Delivery,E-Commerce,,8/8/2022
+Malwarebytes,125,14%,San Francisco,Private,17,08,2022,Security,Enterprise Software,,8/17/2022
+Apartment List,Unclear,10%,San Francisco,Private,31,08,2022,Proptech,,,8/31/2022
+impact.com,Unclear,10%,Santa Barbara,Private,25,08,2022,Digital Marketing,,,8/25/2022
+Thirty Madison,Unclear,10%,Greater New York area,Private,18,08,2022,Health Care,Wellness,,8/18/2022
+Core Scientific,Unclear,10%,Austin,Public,12,08,2022,Blockchain,Cryptocurrency,,8/12/2022
+iRobot,140,10%,Bedford,Public,05,08,2022,Artificial Intelligence,Robotics,,8/5/2022
+Argyle,20,7%,New York,Private,26,08,2022,Insurtech,,,8/26/2022
+ShipBob,Unclear,7%,Chicago,Private,25,08,2022,Shipping,Logistics,,8/25/2022
+New Relic,110,5%,Bay Area,Private,18,08,2022,Productivity,Enterprise Software,,8/18/2022
+Sweetgreen,Unclear,5%,Washington,Public,09,08,2022,Food And Beverage,Restaurants,,8/9/2022
+Outreach,Unclear,5%,Seattle,Private,02,08,2022,Sales Tech,,,8/2/2022
+Nutanix,270,4%,San Jose,Public,10,08,2022,Data Center,Enterprise Software,,8/10/2022
+Amperity,13,3%,Seattle,Private,20,08,2022,Saas,Analytics,,8/20/2022
+Shelf Engine,43,Unclear,Seattle,Private,29,07,2022,Food Tech,Software,Grocery Tech,7/29/2022
+Career Karma,60,Unclear,San Francisco,Private,28,07,2022,Career Planning,Social Network,,7/28/2022
+People.ai,Unclear,Unclear,San Francisco,Private,26,07,2022,Artificial Intelligence,Sales,,7/26/2022
+Capsule,Unclear,Unclear,New York,Private,21,07,2022,Health Care,,,7/21/2022
+Rad Power Bikes,163,Unclear,Seattle,Private,21,07,2022,Transporation,,,7/21/2022
+InVision,Unclear,Unclear,New York,Private,21,07,2022,Visual Collaboration,Apps,,7/21/2022
+Varo,75,Unclear,San Francisco,Private,20,07,2022,Fintech,,,7/20/2022
+Arc,13,Unclear,Mountain View,Private,20,07,2022,Hr Tech,,,7/20/2022
+Olive,450,Unclear,Columbus,Private,19,07,2022,Health Care,,,7/19/2022
+Invitae,1000,Unclear,San Francisco,Public,18,07,2022,Health Care,Biotech,,7/18/2022
+Elemy,Unclear,Unclear,San Francisco,Private,18,07,2022,Health Care,,,7/18/2022
+TikTok,Unclear,Unclear,Los Angeles,Private,18,07,2022,Social Media,,,7/18/2022
+Aspire,23,Unclear,San Francisco,Private,15,07,2022,Marketing Tech,,,7/15/2022
+Alto Pharmacy,Unclear,Unclear,San Francisco,Private,14,07,2022,Health Care,,,7/14/2022
+ChowNow,100,Unclear,Playa Visa,Private,13,07,2022,Restaurant Tech,Food Tech,,7/13/2022
+100 Thieves,12,Unclear,Los Angeles,Private,13,07,2022,Esports,Media,,7/13/2022
+Spring,Unclear,Unclear,San Francisco,Private,13,07,2022,E-Commerce,,,7/13/2022
+Microsoft,Unclear,Unclear,Seattle,Public,12,07,2022,Enterprise Software,,,7/12/2022
+Adwerx,40,Unclear,Durham,Private,12,07,2022,Digital Marketing,,,7/12/2022
+Hubilo,45,Unclear,San Francisco,Private,12,07,2022,Virtual Events,,,7/12/2022
+Hopin,380,Unclear,London,Private,11,07,2022,Virtual Event,,,7/11/2022
+Nextbite,Unclear,Unclear,Denver,Private,08,07,2022,Restaurant Tech,Food Tech,,7/8/2022
+LetsGetChecked,Unclear,Unclear,New York,Private,02,07,2022,Health Care,,,7/2/2022
+Teleport,Unclear,Unclear,Oakland,Private,01,07,2022,Cloud Infrastructure,,,7/1/2022
+Butler Hospitality,1000,100%,New York,Private,08,07,2022,Hospitality,,,7/8/2022
+WanderJaunt,85,100%,San Francisco,Private,01,07,2022,Proptech,Real Estate,,7/1/2022
+Fabric,120,40%,New York,Private,13,07,2022,E-Commerce,Logistics,,7/13/2022
+Hydrow,70,35%,Boston,Private,21,07,2022,Fitness,,,7/21/2022
+Tonal,262,35%,San Francisco,Private,13,07,2022,Fitness,,,7/13/2022
+Lunchbox,Unclear,33%,New York,Private,21,07,2022,Restaurant Tech,Food Tech,,7/21/2022
+Bizzabo,120,30%,New York,Private,05,07,2022,Virtual Event,,,7/5/2022
+Celsius,150,25%,Hoboken,Private,03,07,2022,Crypto,,,7/3/2022
+Cedar,Unclear,24%,New York,Private,07,07,2022,Health Care,,,7/7/2022
+Metromile,60,20%,San Francisco,Public,29,07,2022,Insurtech,Transportation,,7/29/2022
+Turntide,130,20%,Sunnyvale,Private,28,07,2022,Cleantech,Energy,,7/28/2022
+Flyhomes,150,20%,Seattle,Private,20,07,2022,Real Estate,Proptech,,7/20/2022
+OpenSea,Unclear,20%,New York,Private,14,07,2022,Crypto,Nft Marketplace,,7/14/2022
+Change.org,Unclear,19%,San Francisco,Private,28,07,2022,Civictech,,,7/28/2022
+Emotive,30,18%,Los Angeles,Private,07,07,2022,Sms Marketing,,,7/7/2022
+SQream Technologies,30,18%,New York,Private,06,07,2022,Data Analytics,,,7/6/2022
+Outschool,31,18%,San Francisco,Private,05,07,2022,Edtech,,,7/5/2022
+Next Insurance,150,17%,Palo Alto,Private,07,07,2022,Insurtech,,,7/7/2022
+WHOOP,Unclear,15%,Boston,Private,21,07,2022,Fitness,,,7/21/2022
+The Mom Project,54,15%,Chicago,Private,20,07,2022,Talent Marketplace,,,7/20/2022
+Papa,Unclear,15%,Miami,Private,14,07,2022,Elder Care,,,7/14/2022
+SundaySky,24,13%,New York,Private,11,07,2022,Video Conferencing Software,,,7/11/2022
+Shopify,1000,10%,Ottawa,Public,26,07,2022,E-Commerce,,,7/26/2022
+98point6,Unclear,10%,Seattle,Private,21,07,2022,Health Care,,,7/21/2022
+Lusha,30,10%,New York,Private,18,07,2022,Sales Tech,,,7/18/2022
+Verbit,80,10%,New York,Private,05,07,2022,Natural Language Processing,,,7/5/2022
+Pear Therapeutics,25,9%,Boston,Public,25,07,2022,Software,Biotech,,7/25/2022
+Remote,100,9%,San Francisco,Private,06,07,2022,Hr Tech,,,7/6/2022
+Gemini,68,7%,New York,Private,18,07,2022,Crypto,,,7/18/2022
+Rivian,840,6%,Irvine,Public,28,07,2022,Electric Vehicle,Transportation,,7/28/2022
+Vimeo,72,6%,New York,Public,18,07,2022,Media,Entertainment,,7/18/2022
+Canoo,58,6%,Torrance,Private,01,07,2022,Transportation,,,7/1/2022
+Boosted Commerce,Unclear,5%,Los Angeles,Private,25,07,2022,E-Commerce,,,7/25/2022
+Clarify Health,15,5%,San Francisco,Private,22,07,2022,Health Care,,,7/22/2022
+RealSelf,11,5%,Seattle,Private,21,07,2022,Beauty Tech,,,7/21/2022
+Project44,63,5%,Chicago,Private,15,07,2022,Logistics,,,7/15/2022
+Forward,Unclear,5%,San Francisco,Private,11,07,2022,Health Care,,,7/11/2022
+Argo AI,150,5%,Pittsburgh,Private,07,07,2022,Transportation,,,7/7/2022
+Outbrain,38,3%,New York,Public,26,07,2022,Digital Marketing,,,7/26/2022
+NextRoll,Unclear,3%,San Francisco,Private,08,07,2022,Marketing Tech,,,7/8/2022
+Vox Media,39,2%,Washington,Private,27,07,2022,Digital Media,Journalism,,7/27/2022
+Modsy,Unclear,Unclear,San Francisco,Private,29,06,2022,E-Commerce,,,6/29/2022
+Degreed,Unclear,Unclear,Pleasanton,Private,29,06,2022,Edtech,,,6/29/2022
+Cue,170,Unclear,San Diego,Public,27,06,2022,Health Care,,,6/27/2022
+Community,40,Unclear,Los Angeles,Private,22,06,2022,Social Media,,,6/22/2022
+Finite State,16,Unclear,Columbus,Private,17,06,2022,Cybersecurity,,,6/17/2022
+Keepe,Unclear,Unclear,Seattle,Private,10,06,2022,Proptech,,,6/10/2022
+Liongard,Unclear,Unclear,Houston,Private,10,06,2022,It Infrastructure,,,6/10/2022
+Convoy,Unclear,Unclear,Seattle,Private,09,06,2022,Logistics,,,6/9/2022
+Deep Instinct,Unclear,Unclear,New York,Private,08,06,2022,Cybersecurity,,,6/8/2022
+Progrexion,100,Unclear,Salt Lake City,Private,07,06,2022,Fintech,,,6/7/2022
+ID.Me,Unclear,Unclear,McLean,Private,07,06,2022,Identity Verification,,,6/7/2022
+Clubhouse,Unclear,Unclear,San Francisco,Private,03,06,2022,Social Media,Audio,,6/3/2022
+Esme Learning,40,Unclear,Newton,Private,02,06,2022,Edtech,,,6/2/2022
+Eaze,25,Unclear,San Francisco,Private,02,06,2022,Cannabis,,,6/2/2022
+Cybereason,100,Unclear,Boston,Private,01,06,2022,Cybersecurity,,,6/1/2022
+Stream,,10%-15%,Boulder,Private,30,06,2022,Communications Infrastructure,,,6/30/2022
+SummerBio,101,100%,Menlo Park,Private,20,06,2022,Health Care,Diagnostics,,6/20/2022
+Hologram,80,33%,Chicago,Private,09,06,2022,IoT,,,6/9/2022
+Baton,16,25%,San Francisco,Private,29,06,2022,Transporation,Logistics,,6/29/2022
+SafeGraph,,25%,San Francisco,Private,27,06,2022,Artificial Intelligence,Machine Learning,,6/27/2022
+OneTrust,950,25%,Atlanta,Private,09,06,2022,Cybersecurity,,,6/9/2022
+Policygenius,170,25%,New York,Private,02,06,2022,Insurtech,,,6/2/2022
+IRL,25,25%,San Francisco,Private,02,06,2022,Social Media,,,6/2/2022
+Tonkean,23,23%,San Francisco,Private,15,06,2022,Software,,,6/15/2022
+Bird,138,23%,Santa Monica,Public,07,06,2022,Transporation,,,6/7/2022
+Superhuman,23,22%,San Francisco,Private,03,06,2022,Email Software,,,6/3/2022
+Sonder,Unclear,21%,San Francisco,Public,10,06,2022,Hospitality,,,6/10/2022
+MasterClass,156,20%,San Francisco,Private,22,06,2022,Edtech,,,6/22/2022
+Buzzer,Unclear,20%,New York,Private,20,06,2022,Media,Sports,,6/20/2022
+BlockFi,170,20%,Jersey City,Private,13,06,2022,Crypto,,,6/13/2022
+HomeLight,Unclear,19%,San Francisco,Private,29,06,2022,Proptech,Real Estate,,6/29/2022
+Qumolo,80,19%,Seattle,Private,29,06,2022,Data Storage,,,6/29/2022
+Postscript,43,19%,San Francisco,Private,26,06,2022,Marketing Tech,Sms Marketing,,6/26/2022
+Enjoy,400,18%,Palo Alto,Public,30,06,2022,E-Commerce,Delivery,,6/30/2022
+Amount,Unclear,18%,Chicago,Private,27,06,2022,Fintech,,,6/27/2022
+Ro,Unclear,18%,New York,Private,23,06,2022,Health Care,,,6/23/2022
+Sundae,Unclear,15%,San Francisco,Private,28,06,2022,Proptech,Real Estate,,6/28/2022
+Nayya,16,15%,New York,Private,17,06,2022,Employee Benefits,Hr Tech,,6/17/2022
+Zumper,45,15%,San Francisco,Private,16,06,2022,Proptech,,,6/16/2022
+Stitch Fix,330,15%,San Francisco,Public,10,06,2022,E-Commerce,Fashion,,6/10/2022
+TruePill,Unclear,15%,Hayward,Private,08,06,2022,Health Care,,,6/8/2022
+Substack,13,14%,San Francisco,Private,29,06,2022,Media,Content Creators,,6/29/2022
+Sendoso,100,14%,San Francisco,Private,06,06,2022,Marketing Automation,,,6/6/2022
+Socure,69,13%,Reno,Private,17,06,2022,Identity Verification,,,6/17/2022
+Sourcepoint,7,13%,New York,Private,02,06,2022,Privacy Tech,Marketing Tech,,6/2/2022
+AppLovin,300,12%,Palo Alto,Public,29,06,2022,Mobile Apps,Developer Tools,,6/29/2022
+Ethos Life,40,12%,San Francisco,Private,24,06,2022,Insurtech,,,6/24/2022
+Esper,Unclear,12%,Seattle,Private,23,06,2022,Devops,,,6/23/2022
+DesktopMetal,Unclear,12%,Burlington,Public,13,06,2022,3D Printing,,,6/13/2022
+Compass,450,10%,New York,Public,14,06,2022,Proptech,,,6/14/2022
+TIFIN,21,10%,Boulder,Private,14,06,2022,Fintech,,,6/14/2022
+Gemini,Unclear,10%,New York,Private,02,06,2022,Fintech,Crypto,,6/2/2022
+Side,Unclear,10%,San Francisco,Private,01,06,2022,Proptech,,,6/1/2022
+Aura,70,9%,Boston,Private,24,06,2022,Cybersecurity,,,6/24/2022
+Niantic,85,8%,San Francisco,Private,29,06,2022,Video Games,Augmented Reality,,6/29/2022
+Bright Machines,30,8%,San Francisco,Private,28,06,2022,Robotics,,,6/28/2022
+StockX,120,8%,Detroit,Private,28,06,2022,E-Commerce,,,6/28/2022
+Albert,20,8%,Los Angeles,Private,10,06,2022,Fintech,,,6/10/2022
+Jellysmack,Unclear,8%,New York,Private,09,06,2022,Media,Entertainment,,6/9/2022
+Dutchie,56,8%,Bend,Private,06,06,2022,Cannabis,,,6/6/2022
+Stord,59,8%,Atlanta,Private,03,06,2022,Logistics,,,6/3/2022
+Carbon Health,250,8%,San Francisco,Private,02,06,2022,Health Care,,,6/2/2022
+Abra,12,5%,Mountain View,Private,30,06,2022,Crypto,,,6/30/2022
+UiPath,210,5%,New York,Public,27,06,2022,Artificial Intelligence,,,6/27/2022
+JOKR,50,5%,New York,Private,16,06,2022,Food Delivery,E-Commerce,,6/16/2022
+Unity,200,4%,San Francisco,Public,29,06,2022,Video Games,,,6/29/2022
+Replicated,50,Unclear,Los Angeles,Private,31,05,2022,Enterprise Software,,,5/31/2022
+Colossus,97,Unclear,Massachusetts,Private,20,05,2022,Solar,Software,,5/20/2022
+Talkdesk,Unclear,Unclear,San Francisco,Private,19,05,2022,Customer Service,,,5/19/2022
+Zwift,Unclear,Unclear,Long Beach,Private,12,05,2022,Fitness,,,5/12/2022
+Tripwire,Unclear,Unclear,Portland,Private,12,05,2022,Security,,,5/12/2022
+Mural,Unclear,Unclear,San Francisco,Private,06,05,2022,Product Design,,,5/6/2022
+Cameo,167,Unclear,Chicago,Private,04,05,2022,Media,Entertainment,,5/4/2022
+Thrasio,Unclear,Unclear,Walpole,Private,02,05,2022,E-Commerce,,,5/2/2022
+Subspace,Unclear,100%,Los Angeles,Private,13,05,2022,Media,Entertainment,,5/13/2022
+Tomo,44,33%,Stamford,Private,31,05,2022,Fintech,Proptech,,5/31/2022
+Bolt,250,33%,San Francisco,Private,25,05,2022,Fintech,,,5/25/2022
+MainStreet,50,33%,San Jose,Private,04,05,2022,Fintech,,,5/4/2022
+Ideoclick,40,33%,Seattle,Private,04,05,2022,E-Commerce,,,5/4/2022
+Section4,32,25%,New York,Private,12,05,2022,Edtech,,,5/12/2022
+On Deck,72,25%,San Francisco,Private,05,05,2022,Business Development,,,5/5/2022
+Vise,25,25%,New York,Private,04,05,2022,Fintech,,,5/4/2022
+Coterie Insurance,30,20%,Cincinnati,Private,27,05,2022,Insurtech,,,5/27/2022
+Lacework,200,20%,San Jose,Private,26,05,2022,Cybersecurity,,,5/26/2022
+Terminus,Unclear,15%,Atlanta,Private,27,05,2022,Marketing,,,5/27/2022
+Outside Inc,Unclear,15%,Boulder,Private,20,05,2022,Media,Entertainment,,5/20/2022
+Doma,310,15%,San Francisco,Public,10,05,2022,Fintech,Insurtech,,5/10/2022
+Carvana,"2,500",12%,Tempe,Public,10,05,2022,Automotive,E-Commerce,,5/10/2022
+Skillz,70,10%,San Francisco,Public,20,05,2022,Esports,Video Games,,5/20/2022
+Zulily,99,10%,Seattle,Public,16,05,2022,E-Commerce,,,5/16/2022
+Picsart,90,8%,Miami,Private,17,05,2022,Media,Entertainment,,5/17/2022
+ClickUp,Unclear,7%,San Diego,Private,24,05,2022,Productivity Tools,,,5/24/2022
+Playtika,250,6%,Tel Aviv,Public,31,05,2022,Gaming,,,5/31/2022
+Latch,30,6%,New York,Public,13,05,2022,Smart Home,Security,,5/13/2022
+Reef,750,5%,Miami,Private,06,05,2022,Food Delivery,E-Commerce,,5/6/2022
+Thirty Madison,24,3%,New York,Private,13,05,2022,Health Care,,,5/13/2022
+PayPal,83,0.27%,San Jose,Public,23,05,2022,Fintech,,,5/23/2022
+Clyde,19,Unclear,New York,Private,25,04,2022,E-Commerce,,,4/25/2022
+Halcyon Health,Unclear,Unclear,New York,Private,15,04,2022,Health Care,,,4/15/2022
+Ahead,Unclear,Unclear,Santa Clara,Private,14,04,2022,Health Care,,,4/14/2022
+Workrise,Unclear,Unclear,Austin,Private,05,04,2022,Marketplace,,,4/5/2022
+Fast,400,100%,San Francisco,Private,05,04,2022,Fintech,,,4/5/2022
+Better,"5,000",50%,New York,Private,19,04,2022,Fintech,,,4/19/2022
+Rasa,59,40%,San Francisco,Private,04,04,2022,Artificial Intelligence,,,4/4/2022
+Automox,Unclear,11%,Boulder,Private,18,04,2022,Security,,,4/18/2022
+Blend,200,10%,San Francisco,Public,19,04,2022,Fintech,,,4/19/2022
+Food52,20,6%,New York,Private,08,04,2022,Media,E-Commerce,,4/8/2022
+Knock,Unclear,46%,New York,Private,15,03,2022,Proptech,,,3/15/2022
+Hyperscience,100,25%,New York,Private,03,03,2022,Artificial Intelligence,,,3/3/2022
+Curology,150,20%,San Francisco,Private,16,03,2022,E-Commerce,,,3/16/2022
+Sezzle,Unclear,20%,Minneapolis,Public,10,03,2022,Fintech,,,3/10/2022
+Grove Collaborative,Unclear,17%,San Francisco,Private,29,03,2022,E-Commerce,,,3/29/2022
+Virgin Hyperloop,111,50%,Los Angeles,Private,22,02,2022,Transporation,,,2/22/2022
+Rhino,57,20%,New York,Private,03,02,2022,Proptech,Insurtech,,2/3/2022
+Beachbody,70,10%,Santa Monica,Public,27,01,2022,Fitness,,,1/27/2022
